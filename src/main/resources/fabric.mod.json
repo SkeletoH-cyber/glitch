@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "glitchmod",
+  "version": "${version}",
+  "name": "Glitch",
+  "description": "Хоррор-мод: Глич хочет сломать твой мир.",
+  "authors": ["Руслан"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.ruslan.glitch.GlitchMod"],
+    "client": ["com.ruslan.glitch.client.GlitchClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
